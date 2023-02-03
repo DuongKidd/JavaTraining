@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/services/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/fres-web-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/fres-web-client/pom.xml" />
       </list>
     </option>
   </component>

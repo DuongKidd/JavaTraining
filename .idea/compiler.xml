@@ -7,6 +7,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="fres-web-admin" />
+        <module name="fres-web-client" />
         <module name="fres-services" />
         <module name="fres-common" />
       </profile>
@@ -14,12 +16,16 @@
     <bytecodeTargetLevel>
       <module name="fres-common" target="1.8" />
       <module name="fres-services" target="1.8" />
+      <module name="fres-web-admin" target="1.8" />
+      <module name="fres-web-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="fres-common" options="-parameters" />
       <module name="fres-services" options="-parameters" />
+      <module name="fres-web-admin" options="-parameters" />
+      <module name="fres-web-client" options="-parameters" />
     </option>
   </component>
 </project>
